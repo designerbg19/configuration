@@ -195,6 +195,9 @@ EDXAPP_ENABLE_SYSADMIN_DASHBOARD: false
 EDXAPP_ENABLE_CSMH_EXTENDED: True
 EDXAPP_ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES: True
 
+# Account activation message flag
+EDXAPP_DISPLAY_ACCOUNT_ACTIVATION_MESSAGE_ON_SIDEBAR: false
+
 EDXAPP_GIT_REPO_DIR: '/edx/var/edxapp/course_repos'
 EDXAPP_GIT_REPO_EXPORT_DIR: '/edx/var/edxapp/export_course_repos'
 
@@ -635,9 +638,6 @@ EDXAPP_COMPREHENSIVE_THEME_VERSION: ""
 # SAML KEYS
 EDXAPP_SOCIAL_AUTH_SAML_SP_PRIVATE_KEY: ''
 EDXAPP_SOCIAL_AUTH_SAML_SP_PUBLIC_CERT: ''
-
-# Account activation message flag
-EDXAPP_DISPLAY_ACCOUNT_ACTIVATION_MESSAGE_ON_SIDEBAR: false
 
 # Session cookie setting
 # Only set this to true for client side profiling, never for production
